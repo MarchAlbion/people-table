@@ -1,0 +1,17 @@
+.input {
+  width: 100%;
+  border: 1px solid #84caff;
+  background-color: transparent;
+  outline: none;
+  padding: 8px 8px;
+  border-radius: 3px;
+  transition: all 0.2s ease-in-out;
+  max-width: 400px;
+  font-size: 16px;
+  font-weight: 500;
+
+  &:focus {
+    border: 1px solid #84caff;
+    box-shadow: 0px 0px 0px 4px #2e90fa3d;
+  }
+}

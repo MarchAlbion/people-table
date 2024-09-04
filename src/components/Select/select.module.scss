@@ -1,0 +1,17 @@
+.select {
+  border: 1px solid #84caff;
+  background-color: transparent;
+  outline: none;
+  padding: 8px 8px;
+  border-radius: 3px;
+  transition: all 0.2s ease-in-out;
+
+  &:focus {
+    border: 1px solid #84caff;
+    box-shadow: 0px 0px 0px 4px #2e90fa3d;
+  }
+}
+
+.option {
+  padding: 5px;
+}

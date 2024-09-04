@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Select } from "./components/Select/Select";
+import "./App.css";
+import { Container } from "./components/Container/Container";
+import { Input } from "./components/Input/Input";
+import { MyTable } from "./components/Table/MyTable";
+
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container>
+        <>
+          <div className="input-container">
+            <Input />
+            <Select />
+          </div>
+          <MyTable />
+        </>
+      </Container>
     </div>
   );
 }
